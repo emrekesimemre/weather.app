@@ -2,7 +2,7 @@
 /* RESET STYLES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 :root {
-  /* --bg_main: #0c6396; */
+  --bg_main: #0c6396;
   --text_light: #fff;
   --text_med: #53627c;
   --text_dark: #1e2432;
@@ -18,12 +18,12 @@
   font-weight: normal;
 }
 
-body{
+/* body{
   background-image: url(./svg/lukas-mann-xlrrzqlF7zw-unsplash.jpg) !important;
   background-position:center !important;
   background-size: cover !important;
   background-repeat: no-repeat !important;
-}
+} */
 #btn{
   float: right;
   font-size: 1.5rem;
