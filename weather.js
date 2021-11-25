@@ -73,8 +73,12 @@ const getWeatherDataFromApi = async () => {
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <span>Felt Temperature: ${Math.round(main.feels_like)}</span> <br>
-        <span>Maximum Temperature: ${Math.round(main.temp_max)}</span>
+        <span>Felt Temperature: ${Math.round(
+          main.feels_like
+        )}<sup>°C</sup></span> <br>
+        <span>Maximum Temperature: ${Math.round(
+          main.temp_max
+        )}<sup>°C</sup></span>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
