@@ -7,7 +7,7 @@ console.log(close);
 
 localStorage.setItem(
   'apikey',
-  EncryptStringAES('4eb469876df94c279cf81f5f1789653f')
+  EncryptStringAES('4d8fb5b93d4af21d66a2948710284366')
 );
 
 form.addEventListener('submit', (e) => {
