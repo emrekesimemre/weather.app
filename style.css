@@ -20,7 +20,7 @@
 
 body{
   background-image: url(./svg/lukas-mann-xlrrzqlF7zw-unsplash.jpg) !important;
-  /* background-position:center !important; */
+  background-position:center !important;
   background-size: cover !important;
   background-repeat: no-repeat !important;
 }
